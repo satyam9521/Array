@@ -1,0 +1,14 @@
+# include<iostream>
+using namespace std;
+int main(){
+    int array[5];
+    cout<<"Enter elements:"<<"\n";
+    for(int i=0;i<5;i++){
+        cin>>array[i];
+    }
+    cout<<"you entered are:"<<"\n";
+    for(int i=0;i<5;i++){
+        cout<<*(array+i)<<"\n";
+    }
+    return 0;
+}
